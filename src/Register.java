@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Register {
-	public static void main(String [] args)
-	{
+	public static void main(String [] args){
 		Scanner input = new Scanner(System.in);
 		int count = 1;
 		
@@ -33,12 +32,10 @@ public class Register {
 			}while(userDub != -999);
 			userStr = "No";
 		}
-		else if(userStr.equals("No"))
-		{
+		else if(userStr.equals("No")){
 			System.out.println("Goodnight.");
 		}
-		else
-		{
+		else{
 			System.out.println("Error. Please use valid response.");
 		}
 		 
